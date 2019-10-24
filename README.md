@@ -75,7 +75,7 @@ $ sudo semanage fcontext -a -t httpd_sys_content_t 'testsite/(.*)?'
 # Booleans: getsebool & setsebool (>100)
 
 * getsebool -a | grep http
-* setsebool -P httpd_enable_homedirs on
+* setsebool -P httpd_enable_homedirs on    (-P: permanent)
 
 ```bash
 $ sudo sealert -a /var/log/audit/audit.log
