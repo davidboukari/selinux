@@ -36,7 +36,7 @@ SELINUX=enforcing
 SELINUXTYPE=targeted
 ```
 
-#get  ps Z
+# get  ps Z
 ```bash
 ps axfZ
 ```
