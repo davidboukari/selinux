@@ -36,6 +36,12 @@ SELINUX=enforcing
 SELINUXTYPE=targeted
 ```
 
+## Add a port
+```
+semanage port -l|grep 8090
+sudo semanage port -a -t http_port_t -p tcp 8090
+```
+
 # get  ps Z
 ```bash
 ps axfZ
